@@ -178,6 +178,21 @@ a {
       font-size: 22px;
       font-weight: 700; }
 
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+.fade {
+  animation: fade ease-in-out 0.8s; }
+
+@keyframes fade {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
+
 .offer {
   padding: 70px 0 100px 0;
   position: relative; }
